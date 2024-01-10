@@ -1,0 +1,81 @@
+.Side {
+  width: 200px;
+  padding: 0;
+}
+@media (max-width: 768px) {
+  .Side {
+    width: 100%;
+    padding: 60px 0 0 0;
+  }
+}
+.Side_Row {
+  margin: 0 0 40px 0;
+}
+.Side_Row:last-child {
+  margin: 0;
+}
+.Side_Heading {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0 0 12px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.Side_Heading > svg {
+  width: 16px;
+  height: 16px;
+  margin: 0 8px 0 0;
+}
+.PopularTags {
+  margin: -8px 0 0 24px;
+  padding: 0;
+}
+.PopularTags > li {
+  list-style: none;
+  font-size: 1.4rem;
+}
+@media (max-width: 768px) {
+  .PopularTags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .PopularTags > li {
+    margin: 0 16px 4px 0;
+  }
+}
+.PopularTags > li > a {
+  color: #333;
+  text-decoration: none;
+  padding: 1px 0;
+  display: inline-block;
+}
+.PopularTags > li > a:hover {
+  text-decoration: underline;
+}
+.Archives {
+  margin: -8px 0 0 24px;
+  padding: 0;
+}
+.Archives > li {
+  list-style: none;
+  font-size: 1.4rem;
+}
+@media (max-width: 768px) {
+  .Archives {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Archives > li {
+    margin: 0 16px 4px 0;
+  }
+}
+.Archives > li > a {
+  color: #333;
+  text-decoration: none;
+  padding: 1px 0;
+  display: inline-block;
+}
+.Archives > li > a:hover {
+  text-decoration: underline;
+}

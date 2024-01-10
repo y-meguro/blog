@@ -1,0 +1,48 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier './**/*.{js,jsx,ts,tsx,json,css}' --write --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@next/third-parties": "^14.0.4",
+    "cheerio": "^1.0.0-rc.12",
+    "html-to-text": "^9.0.5",
+    "luxon": "^3.4.3",
+    "newt-client-js": "^3.2.8",
+    "next": "14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-gtm-module": "^2.0.11",
+    "react-markdown": "^9.0.1",
+    "rehype-raw": "^7.0.0",
+    "remark-breaks": "^4.0.0",
+    "remark-gfm": "^4.0.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/html-to-text": "^9.0.2",
+    "@types/luxon": "^3.3.2",
+    "@types/node": "^20.6.4",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.18",
+    "eslint": "^8.21.0",
+    "eslint-config-next": "^13.5.2",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "next-sitemap": "^4.2.3",
+    "prettier": "^3.0.3",
+    "typescript": "^5.3.3"
+  },
+  "author": "Yohei Meguro <y.meguro.2008@gmail.com> (https://github.com/y-meguro/)",
+  "license": "MIT",
+  "keywords": [
+    "newt"
+  ]
+}

@@ -1,0 +1,7 @@
+.Search_Input {
+  margin: 0 0 0 24px;
+}
+.Search_Input input {
+  width: 100%;
+  padding: 5px 8px;
+}

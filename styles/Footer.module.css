@@ -1,0 +1,40 @@
+.Footer {
+  margin: auto 0 0 0;
+  padding: 0 40px;
+}
+@media (max-width: 768px) {
+  .Footer {
+    padding: 0 24px;
+  }
+}
+.Footer_Inner {
+  min-width: 0;
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding: 0 0 40px 0;
+}
+.Footer_SiteName {
+  color: #333;
+  font-size: 1.8rem;
+  text-decoration: none;
+  margin: 0 0 8px 0;
+  font-weight: bold;
+}
+.Footer_SiteName:hover {
+  text-decoration: underline;
+}
+.Footer_Newt {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+.Footer_NewtText {
+  margin: 0 0 0 5px;
+}

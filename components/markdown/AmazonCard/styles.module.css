@@ -1,0 +1,50 @@
+.Card_Container {
+  border: 1px solid rgba(92, 147, 187, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 24px auto 40px;
+}
+.Card_Container a {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+}
+.Card_Main {
+  flex: 1 1;
+  padding: 0.8em 1.2em;
+  min-width: 0;
+}
+.Card_Title {
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.Card_Description {
+  margin-top: 0.5em;
+  color: #666;
+  font-size: 0.8em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-height: 1.55em;
+}
+.AmazonCard_Url {
+  margin-top: 6px;
+  font-size: 0.78em;
+  display: flex;
+}
+.Card_Container .AmazonCard_Url img {
+  margin: 1px 6px 0 0;
+}
+.AmazonCard_Url div {
+  line-height: 16px;
+}
+.AmazonCard_Thumbnail {
+  width: 120px;
+  max-height: 180px;
+}
+.Card_Container .AmazonCard_Thumbnail img {
+  margin: 0 auto;
+}

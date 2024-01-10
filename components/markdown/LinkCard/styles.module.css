@@ -1,0 +1,58 @@
+.Card_Container {
+  border: 1px solid rgba(92, 147, 187, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 24px auto 40px;
+}
+.Card_Container a {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+}
+.Card_Main {
+  flex: 1 1;
+  padding: 0.8em 1.2em;
+  min-width: 0;
+}
+.Card_Title {
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.Card_Description {
+  margin-top: 0.5em;
+  color: #666;
+  font-size: 0.8em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-height: 1.55em;
+}
+.LinkCard_Url {
+  margin-top: 6px;
+  font-size: 0.78em;
+  display: flex;
+}
+.Card_Container .LinkCard_Url img {
+  margin: 0 6px 0 0;
+}
+.LinkCard_Url div {
+  line-height: 16px;
+}
+.LinkCard_Thumbnail {
+  display: flex;
+  max-width: 230px;
+  width: auto;
+  height: 120px;
+}
+.Card_Container .LinkCard_Thumbnail img {
+  margin: 0 auto;
+}
+@media (max-width: 599px) {
+  .LinkCard_Thumbnail {
+    width: 120px;
+    height: initial;
+  }
+}

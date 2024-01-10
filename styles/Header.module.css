@@ -1,0 +1,58 @@
+.Header {
+  padding: 28px 40px 0 40px;
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+@media (max-width: 768px) {
+  .Header {
+    padding: 16px 28px 0 28px;
+  }
+}
+.Header_Inner {
+  min-width: 0;
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.Header_Title {
+  margin: 0 auto 0 0;
+  color: #333;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.Header_Title:hover {
+  text-decoration: underline;
+}
+.Nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 0 0 0 32px;
+  font-weight: bold;
+}
+.Nav a:hover {
+  text-decoration: underline;
+}
+.Link {
+  margin: 0 0 0 32px;
+}
+.Link > a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.Link > a:hover {
+  text-decoration: underline;
+}
+.Link > a > svg {
+  width: 16px;
+  height: 16px;
+  margin: 0 6px 0 0;
+}

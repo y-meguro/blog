@@ -1,0 +1,301 @@
+.Article {
+  padding: 0 40px;
+}
+.Article_Inner {
+  margin: 40px auto;
+  padding: 60px 80px 40px 80px;
+  max-width: 640px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+}
+@media (max-width: 599px) {
+  .Article {
+    padding: 0;
+  }
+  .Article_Inner {
+    border: none;
+    padding: 28px;
+  }
+}
+.Article_ClosePreview {
+  display: flex;
+  align-items: center;
+}
+.Article_ClosePreview a {
+  color: #666;
+  text-decoration: none;
+}
+.Article_ClosePreview a:hover {
+  text-decoration: underline;
+}
+.Article_ClosePreview img {
+  margin: 0 6px 0 0;
+}
+.Article_Header {
+  margin: 0 0 60px 0;
+}
+.Article_Emoji {
+  font-size: 56px;
+  text-align: center;
+  margin: 0 0 16px 0;
+}
+.Article_Title {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  font-weight: bold;
+  margin: 0 0 16px;
+  padding: 0;
+  text-align: center;
+}
+.Article_Tags {
+  margin: 0 0 16px 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Article_Tags li {
+  margin: 0 8px 8px 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.4rem;
+}
+.Article_Tags li a {
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 8px;
+  transition: border 0.2s;
+}
+.Article_Tags li a:hover {
+  border: 1px solid #999;
+}
+.Article_Row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Article_Date {
+  color: #666;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  display: block;
+  margin: 0 12px 0 0;
+  padding: 0 20px 0 0;
+  border-right: 1px solid #e5e5e5;
+}
+.Article_Share {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.Article_ShareList {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.Article_ShareList > li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.Article_ShareList > li > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.Article_ShareList > li > button > svg {
+  width: 28px;
+  height: 28px;
+  transition: fill 0.2s;
+}
+.Article_ShareList > li > button.Twitter > svg {
+  width: 21px;
+  height: 21px;
+}
+.Article_ShareList > li > button:hover > svg {
+  fill: #888;
+}
+.Article_Body {
+  padding: 0 0 48px 0;
+}
+.Article_Body h2 {
+  font-size: 24px;
+  margin: 40px 0 24px 0;
+  padding: 0 0 3px;
+  border-bottom: 1px solid #ddd;
+}
+.Article_Body h3 {
+  font-size: 20px;
+  margin: 40px 0 24px 0;
+}
+.Article_Body h4 {
+  font-size: 16px;
+  margin: 30px 0 12px 0;
+}
+.Article_Body p {
+  margin: 0 0 24px 0;
+}
+.Article_Body img {
+  max-width: 100%;
+  height: auto;
+  margin: 32px auto;
+  display: block;
+}
+.Article_Body ul,
+.Article_Body ol {
+  margin: 0;
+  padding: 0 0 16px 40px;
+}
+.Article_Body ul li,
+.Article_Body ol li {
+  margin: 0 0 4px 0;
+  padding: 0;
+}
+.Article_Body ul li ul,
+.Article_Body ul li ol,
+.Article_Body ol li ol,
+.Article_Body ol li ul {
+  padding: 0 0 0 20px;
+}
+.Article_Body blockquote {
+  border-left: 4px solid #ccc;
+  padding: 0 0 0 40px;
+  margin: 0 0 20px 0;
+}
+.Article_Body pre {
+  background: #333;
+  color: #fff;
+  border-radius: 4px;
+  padding: 16px 20px;
+  margin: 0 0 20px 0;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  overflow: auto;
+  font-family: 'Segoe UI Emoji', 'Helvetica Neue', Arial,
+    'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+}
+.Article_Body code {
+  border: 1px solid #ddd;
+  background: #f8f8f8;
+  border-radius: 4px;
+  padding: 2px 4px;
+  margin: 0 4px;
+  color: #e01d5a;
+  font-size: 1.4rem;
+  font-family: 'Segoe UI Emoji', 'Helvetica Neue', Arial,
+    'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+}
+.Article_Body pre code {
+  border: none;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+.Article_Body table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin: 0 0 28px 0;
+  border: 1px solid #e5e5e5;
+}
+.Article_Body table th {
+  background: #f5f5f5;
+  padding: 4px 8px;
+  border: 1px solid #e5e5e5;
+  text-align: left;
+}
+.Article_Body table td {
+  padding: 4px 8px;
+  border: 1px solid #e5e5e5;
+}
+.SnsShare {
+  text-align: center;
+  margin: 0 0 68px 0;
+}
+.SnsShare_Label {
+  color: #666;
+  font-size: 1.4rem;
+  margin: 0 0 8px 0;
+}
+.SnsShare_List {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.SnsShare_List > li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.SnsShare_List > li > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.SnsShare_List > li > button > svg {
+  width: 28px;
+  height: 28px;
+  transition: fill 0.2s;
+}
+.SnsShare_List > li > button.Twitter > svg {
+  width: 21px;
+  height: 21px;
+}
+.SnsShare_List > li > button:hover > svg {
+  fill: #888;
+}
+.Links {
+  display: flex;
+  position: relative;
+  margin: 0 0 40px 0;
+}
+.Links_Previous,
+.Links_Next {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+.Links_Previous:hover,
+.Links_Next:hover {
+  text-decoration: underline;
+}
+.Links_Previous svg,
+.Links_Next svg {
+  width: 16px;
+  height: 16px;
+}
+.Links_Previous {
+  margin: 0 auto 0 0;
+}
+.Links_Previous svg {
+  margin: 0 8px 0 0;
+}
+.Links_Next {
+  margin: 0 0 0 auto;
+  text-align: right;
+  justify-content: flex-end;
+}
+.Links_Next svg {
+  margin: 0 0 0 8px;
+}
